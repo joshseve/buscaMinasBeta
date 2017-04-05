@@ -13,7 +13,7 @@ var mostrarColor=document.getElementsByClassName("color")
   }
 
   function ponerColor(){
-    this.style.backgroundColor="yellow"
+    this.style.backgroundColor="black"
   }
 
   var mostrarBomba=document.getElementsByClassName("bomba")
@@ -42,4 +42,7 @@ function gameOver(){
   for (var i=0; i<seTermino.length; i++){
     seTermino[i].disabled=true;
   }
+  //FALTA MODIFICAR QUE LA ALERTA SALGA DESPUES DE MOSTRAR
+  // LA IMAGEN DE LA BOMBA!!!
+  alert("Perdiste!!! Intenta de nuevo...");
 }
